@@ -1,0 +1,6 @@
+version: '3'
+services:
+  lambda:
+    build: .
+    ports:
+      - "9000:8080"
